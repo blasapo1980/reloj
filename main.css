@@ -1,3 +1,23 @@
-.reloj {
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-}
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px; }
+
+.reloj {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #E7D2F3;
+  width: 200px;
+  border: 1px;
+  border-radius: 10px; }
+
+.separated {
+  margin: 10px; }
+
+/*# sourceMappingURL=main.css.map */

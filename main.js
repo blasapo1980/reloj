@@ -8,9 +8,9 @@ function currentHour(){
   var printMin = document.querySelector(".min");
   var printSec =document.querySelector(".sec");
 
-  printHour.textContent = hour;
-  printMin.textContent = min;
-  printSec.textContent = sec;
+  printHour.textContent = hour +" "+ "hour";
+  printMin.textContent = min +" "+ "munutes";
+  printSec.textContent = sec+" "+ "seconds";
 }
 
 
